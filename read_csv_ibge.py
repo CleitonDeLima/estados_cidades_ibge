@@ -36,7 +36,7 @@ with open('base_ibge.csv') as csvfile:
             data[code_state].update(
                 dict(
                     name=state_name,
-                    citys=dict()
+                    cities=dict()
                 )
             )
 
