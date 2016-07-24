@@ -43,7 +43,7 @@ with open('base_ibge.csv') as csvfile:
         city_name = str(row['NomeMunic']).capitalize()
         code_city = str(row['Codmundv'])
 
-        data[code_state]['citys'].update(
+        data[code_state]['cities'].update(
             {
                 code_city: city_name
             }
